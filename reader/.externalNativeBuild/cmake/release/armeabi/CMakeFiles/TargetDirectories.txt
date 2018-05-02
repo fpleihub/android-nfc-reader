@@ -1,0 +1,3 @@
+V:/git/nfcWorkSpace/HCE/reader/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/native-lib.dir
+V:/git/nfcWorkSpace/HCE/reader/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+V:/git/nfcWorkSpace/HCE/reader/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "V:/git/nfcWorkSpace/HCE/reader/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"E:\\developerEnvriment\\androidSDK\\android-sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build V:\\git\\nfcWorkSpace\\HCE\\reader\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "E:\\developerEnvriment\\androidSDK\\android-sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build V:\\git\\nfcWorkSpace\\HCE\\reader\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=E:/developerEnvriment/androidSDK/android-sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=E:/developerEnvriment/androidSDK/android-sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem E:\\developerEnvriment\\androidSDK\\android-sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\developerEnvriment\\androidSDK\\android-sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem E:\\developerEnvriment\\androidSDK\\android-sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/developerEnvriment/androidSDK/android-sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=22 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "V:/git/nfcWorkSpace/HCE/reader/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "V:/git/nfcWorkSpace/HCE/reader/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "V:/git/nfcWorkSpace/HCE/reader/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "3098896285"
+		}
+	},
+	"toolchains" : 
+	{
+		"3098896285" : 
+		{
+			"cCompilerExecutable" : "E:/developerEnvriment/androidSDK/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/developerEnvriment/androidSDK/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

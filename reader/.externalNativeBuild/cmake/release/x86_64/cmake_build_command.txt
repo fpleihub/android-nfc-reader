@@ -1,0 +1,15 @@
+Executable : E:\developerEnvriment\androidSDK\android-sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HV:\git\nfcWorkSpace\HCE\reader
+-BV:\git\nfcWorkSpace\HCE\reader\.externalNativeBuild\cmake\release\x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-22
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=V:\git\nfcWorkSpace\HCE\reader\build\intermediates\cmake\release\obj\x86_64
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=E:\developerEnvriment\androidSDK\android-sdk\ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++11
+-DCMAKE_TOOLCHAIN_FILE=E:\developerEnvriment\androidSDK\android-sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=E:\developerEnvriment\androidSDK\android-sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
